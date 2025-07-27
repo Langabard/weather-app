@@ -13,7 +13,7 @@ function App() {
       .then((data) => {
         setWeather(data);
       });
-  }, []);
+  }, [city]);
 
   return (
     <div className="App">
